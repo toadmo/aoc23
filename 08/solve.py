@@ -54,7 +54,7 @@ def default():
 z_indices = defaultdict(default)
 
 
-while sum([1 if starter[-1] == "Z" else 0 for starter in starters]) != len(starters):
+while True:
     if directions[index % len(directions)] == "R":
         starters = [instructions_dict[curr][1] for curr in starters]
     else:
