@@ -36,5 +36,5 @@ q2 = 0
 for j in range(time + 1):
     if (time - j) * j > distance:
         record_count += 1
-
+q2 = record_count
 print(q2)
